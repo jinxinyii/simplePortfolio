@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: .2s linear;
+}
+.navbar {
+    background: linear-gradient(45deg, rgb(17, 17, 17), rgb(77, 77, 77));
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+  
+.panel-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+  
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+  
+.menu li {
+    margin-right: 1rem;
+}
+  
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+  
+.menu a:hover {
+    color: #747272c0;
+}
+
+/* BODY */
+
+.boxcontainer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    padding: 30px 20px;
+}
+
+.boxcontainer .container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxcontainer .container .aboutme{
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding: 30px 30px;
+    background: linear-gradient(360deg, rgb(255, 255, 255), rgb(104, 104, 104));
+}
+
+.boxcontainer .container .myproject{
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding: 30px 30px;
+    background: linear-gradient(360deg, rgb(255, 255, 255), rgb(104, 104, 104));
+}
+
+.boxcontainer .container2 .contact{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    padding: 10px;
+    background: linear-gradient(360deg, rgb(255, 255, 255), rgb(104, 104, 104));
+}
+
+.container {
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+}
+
+.container2 {
+    display: grid;
+}
+
+.aboutme h2 {
+    text-align: center;
+}
+.aboutme p {
+    text-align: justify;
+}
+
+.myproject h2{
+    text-align: center;
+}
+.myproject {
+    text-align: justify;
+}
+
+.contact {
+    text-align: center;
+}
+
+.boxcontainer .container .aboutme:hover {
+    transform: scale(1.01);
+}
+.boxcontainer .container .myproject:hover {
+    transform: scale(1.01);
+}
+.boxcontainer .container2 .contact:hover {
+    transform: scale(1.01);
+}
+
+/* BUTTON */
+
+.btn {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background: linear-gradient(360deg, rgb(255, 255, 255), rgb(104, 104, 104));
+}
+
+progress {
+    width: 5%;
+    color: black;
+}
